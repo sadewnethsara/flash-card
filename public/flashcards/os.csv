@@ -1,0 +1,61 @@
+question,answer
+What program acts as an intermediary between a computer user and the computer hardware?,Operating system
+Which software component makes a computer ready to use through the process of booting?,Operating system
+"In terms of resource management, what role does the OS play when deciding between conflicting requests?",Resource allocator
+What is the primary goal of the OS regarding the use of computer hardware?,To use the hardware in an efficient manner
+The _____ is the one program running at all times on the computer.,kernel
+What are the four main components of a computer system?,"Hardware, operating system, application programs, and users"
+Which component of a computer system defines the ways in which resources are used to solve computing problems?,Application programs
+What type of program is loaded at power-up or reboot to initialize all aspects of the system?,Bootstrap program
+Where is the bootstrap program typically stored?,ROM or EPROM
+What general term is used for software stored in ROM or EPROM?,Firmware
+How does a device controller inform the CPU that it has finished its operation?,By causing an interrupt
+Each device controller has a _____ used for data transfer to and from main memory.,local buffer
+What structure allows high-speed I/O devices to transmit blocks of data directly to main memory without CPU intervention?,Direct Memory Access (DMA)
+"In a DMA structure, how many interrupts are generated per block of data transferred?",One
+What is the only large storage medium that the CPU can access directly?,Main memory
+Which storage system component provides large nonvolatile storage capacity as an extension of main memory?,Secondary storage
+"A magnetic disk surface is logically divided into tracks, which are further subdivided into _____.",sectors
+What is the primary purpose of caching in a computer system?,To copy information into a faster storage system temporarily
+List the storage hierarchy from highest (fastest) to lowest (slowest).,"Registers, cache, main memory, electronic disk, magnetic disk, optical disk, and magnetic tapes"
+At what level of the storage hierarchy is the management typically handled by the compiler?,Registers
+Which component manages the cache in the storage hierarchy?,Hardware
+What type of implementation technology is used for main memory?,CMOS DRAM
+What is the typical size of registers in the storage hierarchy?,$\lt 1$ KB
+What concept describes organizing jobs so the CPU always has one to execute to improve efficiency?,Multiprogramming
+What is the logical extension of multiprogramming that allows users to interact with jobs while they are running?,Timesharing (multitasking)
+"In a timesharing system, what is the ideal maximum response time?",$\lt 1$ second
+What technique allows the execution of processes that are not completely in memory?,Virtual memory
+How does the hardware distinguish between the system running user code and kernel code?,Mode bit
+"In dual-mode operation, what mode bit value represents user mode?",1
+"In dual-mode operation, what mode bit value represents kernel mode?",0
+What are instructions that can only be executed in kernel mode called?,Privileged instructions
+What event triggers a transition from user mode to kernel mode?,System call (or trap/exception)
+What hardware mechanism prevents a program from hogging resources or entering an infinite loop?,Timer
+How is a 'process' distinguished from a 'program' in OS terms?,"A program is a passive entity, while a process is an active entity (program in execution)"
+What component of a process specifies the location of the next instruction to execute?,Program counter
+How many program counters does a multi-threaded process have?,One per thread
+Which OS management activity involves deciding which processes and data to move into and out of memory?,Memory management
+What is an OS activity related to process management concerning deadlocks?,Providing mechanisms for deadlock handling
+Which OS function involves creating and deleting files and directories?,File management
+What is the core heart of the Linux operating system called?,Kernel
+"In Linux, what is the utility that interprets commands and processes user requests?",Shell
+Name three famous shells available with most Unix variants.,"C Shell, Bourne Shell, and Korn Shell"
+Linux was initially named _____ and developed by Richard Stallman.,GNU
+Who created the Linux kernel in 1991?,Linus Torvalds
+What is the term for the various versions of Linux derived from its initial deployment?,Distributions (distros)
+Name three examples of free Linux distributions.,"Debian, Ubuntu, and CentOS"
+Name three examples of non-free enterprise Linux distributions.,"Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux"
+"According to the source, what percentage of supercomputers use Linux as their host OS?",Over $95\%$
+What type of OS is dedicated to a single computer system with only one terminal?,Single-user OS (Stand-alone)
+What type of OS is designed for multiple users to share resources across many terminals?,Multi-user OS (Network OS)
+"Which OS function involves loading, executing, storing, and retrieving programs?",Booting (starting) the computer operation
+"In computer system organization, what provides access to shared memory for CPUs and device controllers?",Common bus
+"In the storage hierarchy, which level is backed by the cache?",Main memory
+What is the typical access time for registers in a computer system?,$0.25 - 0.5$ ns
+What is the typical bandwidth for main memory storage?,"$1,000 - 5,000$ MB/sec"
+"In the I/O structure, what table contains an entry for each device indicating its type, address, and state?",Device-status table
+What OS management activity involves mapping files onto secondary storage?,File management
+Process management includes providing mechanisms for process _____ and communication.,synchronization
+What happens to reusable resources when a process terminates?,They are reclaimed by the system
+What is the implementation technology for a cache in the storage hierarchy?,On-chip or off-chip CMOS SRAM
